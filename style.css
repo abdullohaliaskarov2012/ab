@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+.divcontainer{
+    width: 1446px;
+    height: 3488px;
+    margin: 0 auto;
+}
+.container{
+    padding: 0 130px;
+}
+.header{
+    width: 1440px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 130px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: left;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.btn{
+    width: 120px;
+    height: 50.41px;
+    border-radius: 5px;
+    background-color: rgba(255, 122, 80, 1);
+    color: white;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 0.19);
+    border: none;
+}
+.btn:hover{
+    color: rgba(255, 122, 80, 1);
+    background-color: white;
+    box-shadow: 22px -15px 10px 0px rgba(255, 104, 56, 0.19);
+}
+.nav ul li:hover{
+    color: rgba(255, 122, 80, 1);
+    transition: all 1s;
+}
+.content{
+    width: 1440px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.content-text h1{
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78.21px;
+    text-align: left;
+
+}
+.span{
+    color: rgba(255, 122, 80, 1);
+}
+
+.content-text p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 23px;
+    margin-bottom: 45px;
+}
+.btn2{
+    width: 163px;
+    height: 50px;
+    background-color: #FF7A50;
+    border-radius: 5px;
+    box-shadow: 22px -15px 10px 0px rgba(255, 104, 56, 0.19);
+}
+.btn2:hover{
+    font-size: 18px;
+}
+.content-text .btn2{
+    transition: all 1s;
+}
+.stay{
+    width: 1440px;
+    height: 723px;
+    margin-top: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid orange;
+}    
+.orange{
+    color: #FF7A50;
+}
+.stay-text{
+    width: 549px;
+    height: 497px;
+    /* margin-left: 855px; */
+    font-weight: 500;
+    font-size: 36px;
+}
+.btn3:hover{
+    font-size: 23px;
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    transition: 2s;
+    box-shadow: 8px 8px 8px 8px black ;
+}
+.own{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 95px;
+}
+.btn3{
+    width: 176px;
+    height: 58px;
+    margin-top: 141px;
+    background-color: #FF7A50;
+    color: aliceblue;
+    border: 1px solid #FF7A50;
+    border-radius: 30px 30px 1px 30px;
+    
+}
+.contentt-img{
+    width: 626px;
+    height: 723px;
+}
+.food{
+    border: 1px solid orange;
+}
+.top-food{
+    text-align: center;
+    margin-top: 44px;
+    font-weight: 500;
+    font-size: 36px;
+}
+.log-img{
+    margin-top: 50px;
+}
+
+.eat:hover{
+    font-size: 3 3px;
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    transition: 2s;
+    box-shadow: 5px 5px 8px 8px rgb(30, 21, 215) ;
+}
+.dowloand{
+    border: 1px solid orange;
+    width: 1174px;
+    height: 491px;
+    margin: 0 auto;
+}
+.App{
+    /* margin-top: 281px; */
+    font-weight: 500;
+    font-size: 36px;
+}
+.mini-text{
+    font-weight: 400;
+    font-size: 20px;
+}
+.big-text{
+    margin-top: 30px;
+
+}
+.App2{
+    margin-top: 30px;
+}
+.for-examle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.botton{
+    margin: 0 auto;
+}
+.botton2{
+    width: 1170px;
+    height: 312px;
+    background-color: #FF7A50;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 59px 269px;
+}
+.botton-text{
+    font-weight: 500;
+    font-size: 40px;
+    color: aliceblue;
+}
+.input{
+    width: 838px;
+    height: 78px;
+    border-radius: 70px;
+    border: 1px solid aliceblue;
+    padding: 25px 43.25px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 97px;
+    margin-right: 100px;
+}
